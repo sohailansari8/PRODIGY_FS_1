@@ -1,45 +1,38 @@
-# PRODGIGY_FS_1
+# Secure Authentication System (TSX)
 
 ## Overview
-
-PRODIGY_FS_1 is a project designed to demonstrate foundational skills in full-stack development. This repository contains all the necessary files and documentation to help you understand, run, and contribute to the project.
+A secure authentication system built with TypeScript and React (TSX), implementing modern security practices and user authentication flows.
 
 ## Features
-
-- Full-stack architecture
-- Modular codebase
-- Easy setup and deployment
+- User registration and login
+- Password hashing and encryption
+- JWT token-based authentication
+- Protected routes
+- Session management
+- Password reset functionality
 
 ## Technologies Used
+- React.js with TypeScript
+- Node.js/Express.js backend
+- JWT for authentication
+- Bcrypt for password hashing
+- MongoDB/PostgreSQL (database)
 
-- Frontend: [Specify framework/library, e.g., React, Angular]
-- Backend: [Specify framework/library, e.g., Node.js, Express]
-- Database: [Specify database, e.g., MongoDB, MySQL]
+## Setup
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Configure environment variables
+4. Start development server: `npm start`
 
-## Getting Started
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/PRODIGY_FS_1.git
-    ```
-2. Install dependencies:
-    ```bash
-    cd PRODIGY_FS_1
-    npm install
-    ```
-3. Start the development server:
-    ```bash
-    npm start
-    ```
+## Security Features
+- HTTPS/SSL encryption
+- XSS protection
+- CSRF protection
+- Rate limiting
+- Input validation
 
 ## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request.
+Pull requests are welcome. For major changes, please open an issue first.
 
 ## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For questions or feedback, please contact [your.email@example.com].
+MIT License
